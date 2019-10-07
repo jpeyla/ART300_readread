@@ -1,0 +1,235 @@
+body{
+    background-color:#FFFFFF;
+    padding:0;
+    margin:0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.menu{
+    display:none;
+}
+
+.pagenum2{
+    display:none;
+}
+
+.noindent{
+    text-indent:0;
+}
+
+.center{
+    text-align:center;
+}
+
+.main{
+    
+}
+
+a{
+    color:#8B1313;
+}
+
+blockquote{
+    font-weight:bold;
+}
+
+p{
+    color:#707070;
+    text-indent:2em;
+    margin-left:35%;
+    margin-right:15%;
+}
+
+.smc{
+    font-style:italic;
+}
+
+.firstcharacter{
+    color:#707070;
+    font-size: 1.5em;
+}
+
+.right_smc{
+    text-indent:0;
+    font-style:italic;
+}
+
+.cursive{
+    font-family:"Courier New", Courier, monospace;
+
+
+}
+
+.poem1{
+    font-size:.75em;
+    line-height:.75em;
+}
+
+.sm{
+    font-size:.80em;
+}
+
+.sig{
+    font-style:italic;
+}
+
+h1{
+    color:#CA6060;
+}
+
+h2{
+    text-align:center;
+    color:#CA6060;
+}
+
+.figcenter{
+    text-align:center;
+}
+
+.caption{
+    display:inline-block;
+    font-size:.75em;
+}
+
+table{
+    margin-left:15%;
+    font-size:.75em;
+}
+
+
+.illustrations{
+    margin-left:60%;
+    font-size:.75em;
+}
+
+.titlepage{
+    text-align:right;
+}
+
+.book-description{
+    text-align:right;
+    font-size:.75em;
+}
+
+.cnomargins{
+    margin-top:0;
+    margin-bottom:0;
+    text-align:right;
+    font-size:.75em;
+}
+
+.cnobmargin{
+    text-align:right;
+    margin-bottom:0;
+    font-size:.75em;
+}
+
+.cnotmargin{
+    text-align:right;
+    margin-top:0;
+    font-size:.75em;
+}
+
+.h1{
+    text-align:right;
+    color:#C97070;
+    font-weight:bold;
+}
+
+.h2a{
+    text-align:right;
+    color:#C97070;
+    font-weight:bold;
+    margin-bottom:0;
+}
+
+.figleft{
+    text-align:left;
+    margin-left:35%;
+}
+
+.figright{
+    text-align:right;
+    margin-right:15%;
+}
+
+/*mobile layout*/
+@media only screen and (max-width:800px){
+    body{
+        background-color:#F1F1F1;
+    }
+    .main{
+    
+    }
+
+    p{
+        margin-left:5%;
+        margin-right:5%;
+        text-indent:1em;
+        text-align:justify;
+    }
+
+    .smc{
+        font-weight:bold;
+    }
+
+    .firstcharacter{
+        color#707070;
+        font-size: 1em;
+    }
+
+    .figleft{
+        text-align:center;
+    }
+    
+    .figright{
+        text-align:center;
+    }
+
+}
+
+
+
+
+/*tablet layout*/
+@media only screen and (min-width:800px) and (max-width:1280px){
+    body{
+        background-color:#F5EAEA;
+    }
+
+    .main{
+
+    }
+
+    .smc{
+        font-weight:400;
+    }
+
+    .firstcharacter{
+        color:#CA6060;
+        font-size: 2em;
+    }
+
+
+    p{
+        margin-left:10%;
+        margin-right:10%;
+        text-indent:2em;
+        text-align:justify;
+    }
+
+    .figleft{
+        text-align:center;
+        margin-left:0;
+    }
+    
+    .figright{
+        text-align:center;
+        margin-right:0;
+    }
+    
+
+}
