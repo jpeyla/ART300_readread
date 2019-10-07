@@ -168,11 +168,12 @@ table{
 
     h1{
         position:fixed;
-        background-color:white;
+        background-color:#E1B6B6;
+        color:#3C3A3A;
         width:100%;
-        height:55px;
+        height:50px;
         margin-top:-5%;
-        padding-top:5%;
+        padding-top:3%;
         z-index:100;
     }
 
@@ -252,12 +253,41 @@ table{
         text-align:justify;
     }
 
+    .figcenter{
+        background-color: #F5EAEA;
+    }
+
     .figleft{
         text-align:center;
+        background-color: #F5EAEA;
     }
     
     .figright{
         text-align:center;
+        background-color: #F5EAEA;
+    }
+
+    .figcenter img{
+        mix-blend-mode:multiply;
+    }
+
+    .figleft img{
+        mix-blend-mode:multiply;
+    }
+    
+    .figright img{
+        mix-blend-mode:multiply;
+    }
+
+    table{
+        margin-left:5%;
+        font-size:.75em;
+    }
+    
+    
+    .illustrations{
+        margin-left:50%;
+        font-size:.75em;
     }
     
 
